@@ -1,0 +1,146 @@
+* { box-sizing: border-box; }  
+nav {
+    background-color: #0f7bee;
+    height: 7em;
+    font-family: 'Signika Negative', sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 550;}
+nav ul {
+    padding-top: 6%;}
+nav li{
+    position: relative;
+    display: inline;   
+}
+.left {
+    float: left;
+    padding-left: 5%;
+}
+.right {
+    float: right;
+    padding-right: 5%;}
+main{
+    background-color: rgb(255, 255, 255);
+}
+.banner {
+    color: rgb(2, 2, 2);
+    padding-left: 4%;
+    padding-top: 5%;
+    font-weight: 550;
+}
+.content {
+    color: rgb(46, 44, 44);
+    padding-left: 4%;
+    margin-top: 5%;
+    font-weight: 550;
+}
+.body_img{
+    margin :0;
+    padding:0;
+}
+main div img {
+    width: 100%;
+   padding-bottom: 10%;
+}
+footer{
+    font-weight: 550;
+    padding-bottom: 5%;
+    padding-left:3%;
+    }
+p{font-family: 'Bellota', cursive;
+    font-size: 1em;}
+ h3{font-weight:bold;
+    padding-top:20px;
+}
+
+@media only screen and (min-width: 768px) {  
+    nav ul {
+      padding-top: 5%;}
+  a {
+      font-size: 1.0em;}
+  h1 {
+      font-size: 2.1em;
+      font-weight: bold;
+  }
+  p {
+      font-size: 1.1em;}
+  main div img {
+      width: 100%;
+      height:auto;
+    }
+  h3 {
+      font-size: 1.6em;
+      font-weight: bold;
+  }
+  footer p {
+      font-size: 1em;}
+footer {
+    background-color: #fefefe;
+}
+ }
+
+
+@media only screen and (min-width: 992px) {
+    nav {
+            background-color: #fefefe;
+        }
+    nav a {
+            color: black;
+            font-size: 1.2em;
+        }
+    nav ul {
+            padding-top: 5%;
+        }
+    main{
+        background-color: #ddf3cb;
+    }
+    header{
+            background-image: url(./Images/thaibinh1.png);
+            background-size: cover;
+            height: 500px;
+            position: relative;
+        }
+    header h1{
+            position: absolute;
+            top: 21%;
+            left: 6%;
+            color: rgb(255, 255, 255);
+            font-size: 2.6em;
+            font-family:Georgia,serif;
+      }
+    header p{
+            position: absolute;
+            top: 38%;
+            left: 6%;
+            color: white;
+            font-size: 1.2em;
+    }
+    .content {
+        padding-bottom: 5%;
+        padding-left: 3%;
+    }
+    .body_img {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    main div img {
+        width: 100%;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    footer p {
+        font-size: 1.1em;
+    }
+    footer {
+      padding-left: 2%;
+      background-color: rgb(239, 235, 235);
+    }
+}
